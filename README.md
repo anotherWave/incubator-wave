@@ -1,9 +1,8 @@
+# ![Apache Wave Logo](https://incubator.apache.org/wave/images/OpenWaveLogo.png) Apache Wave
+
 | Tool | Status |
 | --- | --- |
-| Jenkins | [![Build Status](https://builds.apache.org/buildStatus/icon?job=wave-small_tests)](https://builds.apache.org/job/wave-small_tests) |
-| Travis | [![Build Status](https://travis-ci.org/apache/incubator-wave.svg?branch=master)](https://travis-ci.org/apache/incubator-wave) |
-
-# ![Apache Wave Logo](https://incubator.apache.org/wave/images/OpenWaveLogo.png) Apache Wave
+| Travis | [![Build Status](https://travis-ci.org/apache/incubator-wave.svg?branch=wavy)](https://travis-ci.org/apache/incubator-wave) |
 
 The Apache Wave project is a stand alone wave server and rich web editor and
 multiple platform clients that serves as a Wave reference implementation.
@@ -20,7 +19,8 @@ lively and responsive environment that promotes more fluid and dynamic
 collaboration between users.
 
 ## Resources
-
+| What | Where |
+| --- | --- |
 | Homepage | http://incubator.apache.org/wave/ |
 | Mailing list | http://incubator.apache.org/wave/mailing-lists.html |
 | Hipchat | https://www.hipchat.com/gsModF8CY |
