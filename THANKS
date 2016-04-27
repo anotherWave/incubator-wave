@@ -6,12 +6,9 @@ required to be attributed, it is always nice to do so.
 As such, many thanks are given to the following projects which are used by
 Apache Wave, and have yet to be acknowledged.
 
-Apache Ant
-Apache Velocity
-The EMMA Project
-The Antlr Project
-The cglib Project
-The GWT Project
-The OW2 Consortium (ASM)
-The Hamcrest Project
-The Tango Desktop Project
+Please note these projects are not included in the distrubtion but allow the
+project to be built and packaged.
+
+- Jenkins Project (https://jenkins.io/)
+- Travis CI (https://travis-ci.org/)
+- Bazel (http://bazel.io/)

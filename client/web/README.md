@@ -1,14 +1,14 @@
-# Apache Wave Website
+# Apache Wave Web Client
 
-This is the home of the Apache Wave website. The website is made with Middleman and .... (blurb)
+This is the home of the Apache Wave web client.
 
 ## Dev Install
 
-list instructions on how to install pre requirements for the website
+list instructions on how to install pre requirements for the web client.
 
 ## Build Tasks
 
-what bazel commands to run to build, run, test the website
+what bazel commands to run to build, run, test the web client.
 
 ## More Info
 
