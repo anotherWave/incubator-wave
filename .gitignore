@@ -12,3 +12,6 @@
 
 # Note: Please do not add editor specific ignores here. These should be handled
 #       by your global gitignore.
+
+# Bazel
+bazel*
