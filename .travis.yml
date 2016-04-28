@@ -9,4 +9,5 @@ before_install:
 script:
   - bazel build //server:server
   - bazel test //server:test
+  - bazel run //website:install
   - bazel run //website:website

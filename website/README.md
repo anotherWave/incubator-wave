@@ -19,8 +19,9 @@ Required:
 
 | Task | Description |
 | --- | --- |
-| bazel run //website:website | Builds the website |
-| bazel run //website:live | Runs a website live reload server locally |
+| bazel run //website:**website** | Builds the website |
+| bazel run //website:**live** | Runs a website live reload server locally |
+| bazel run //website:**install** | Installs missing gems |
 
 ## More Info
 

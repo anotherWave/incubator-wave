@@ -9,3 +9,9 @@ sh_binary(
     srcs = ["scripts/run.sh"],
     data = glob(["**/*"]),
 )
+
+sh_binary(
+    name = "install",
+    srcs = ["scripts/install.sh"],
+    data = glob(["**/*"])
+)
