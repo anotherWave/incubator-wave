@@ -1,4 +1,5 @@
 jdk: oraclejdk8
+rvm: ruby-head
 
 before_install:
   - wget 'https://github.com/bazelbuild/bazel/releases/download/0.2.2b/bazel-0.2.2b-installer-linux-x86_64.sh'
@@ -8,3 +9,4 @@ before_install:
 script:
   - bazel build //server:server
   - bazel test //server:test
+  - bazel run //website:website
