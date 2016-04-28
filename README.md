@@ -72,7 +72,7 @@ todo(wisebaldone): replace with bazel command to create distributions.
 
 ## Contributing
 
-To contirbute to Apache Wave please goto
+To contirbute to Apache Wave please go to
 https://incubator.apache.org/wave/get-involved.html where youll be able to find
 information about how to participate.
 
