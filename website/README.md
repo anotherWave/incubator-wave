@@ -1,14 +1,21 @@
 # Apache Wave Website
 
-This is the home of the Apache Wave website. The website is made with Middleman and .... (blurb)
+This is the home of the Apache Wave website. The website is made with Middleman
+and .... (blurb)
 
-## Dev Install
+## Dev Requirements
 
-list instructions on how to install pre requirements for the website
+Required:
+- Ruby v2.3.0+
+- Ruby Gems manager
+- Middleman [install](https://middlemanapp.com/basics/install/)
 
 ## Build Tasks
 
-what bazel commands to run to build, run, test the website
+| Task | Description |
+| --- | --- |
+| bazel build //website:website | Builds the website |
+| bazel run //website:live | Runs a website live reload server locally |
 
 ## More Info
 
