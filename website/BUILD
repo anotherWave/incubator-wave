@@ -1,3 +1,5 @@
+load("/rat", "rat_report")
+
 sh_binary(
     name = "website",
     srcs = ["scripts/build.sh"],
@@ -14,4 +16,10 @@ sh_binary(
     name = "install",
     srcs = ["scripts/install.sh"],
     data = glob(["**/*"])
+)
+
+rat_report(
+    name = "rat",
+    dir = "website",
+    exclude = ".rat-excludes"
 )

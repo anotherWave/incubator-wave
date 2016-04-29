@@ -14,4 +14,4 @@
 #       by your global gitignore.
 
 # Bazel
-bazel*
+bazel-*
