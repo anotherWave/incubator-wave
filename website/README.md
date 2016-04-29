@@ -27,6 +27,7 @@ which will install the gems that have been defined in the website repo.
 | bazel run //website:**website** | Builds the website |
 | bazel run //website:**live** | Runs a website live reload server locally |
 | bazel run //website:**install** | Installs missing gems |
+| bazel build //server:**rat** | Generates Apache Rat report. |
 
 ## More Info
 

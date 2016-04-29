@@ -21,8 +21,9 @@ Optional:
 
 | Task | Description |
 | --- | --- |
-| bazel build //server:server | Builds the server for the current platform |
-| bazel test //server:test | Builds and runs all the server tests |
+| bazel build //server:**server** | Builds the server for the current platform. |
+| bazel test //server:**test** | Builds and runs all the server tests. |
+| bazel build //server:**rat** | Generates Apache Rat report. |
 
 Note: some tasks will require the optional dependencies, these will be noted by
 the task.

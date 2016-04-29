@@ -2,7 +2,7 @@ While the project is being setup a few todo's will be added and removed here
 to track tasks which must be completed before full development can start.
 
 # Apache Related
-- Intergrate Apache Rat & Whisker with Bazel
+
 
 # Project Related
 - Create initial Android base

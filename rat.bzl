@@ -15,11 +15,10 @@ def rat_repositories():
         build_file_content = RAT_TOOLCHAIN_BUILD_FILE
     )
 
-
 def _rat_report_impl(ctx):
     cmd = "java -jar %s -d %s" % (ctx.file._rat.path, ctx.attr.dir)
-    if ctx.file.exclude !=  None:
-        cmd += " -E " + ctx.file.exclude.path
+    if ctx.file.exclude_file !=  None:
+        cmd += " -E " + ctx.file.exclude_file.path
     cmd += (" > %s" % (ctx.outputs.report.path))
     ctx.action(
         command = cmd,
@@ -30,10 +29,10 @@ rat_report = rule(
     implementation = _rat_report_impl,
     attrs = {
         'dir': attr.string(
-            default = ".",
+            default = "",
             mandatory = False
         ),
-        'exclude': attr.label(
+        'exclude_file': attr.label(
             allow_files=True,
             single_file=True),
         '_rat': attr.label(

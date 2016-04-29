@@ -21,5 +21,5 @@ sh_binary(
 rat_report(
     name = "rat",
     dir = "website",
-    exclude = ".rat-excludes"
+    exclude_file = ".rat-excludes"
 )
