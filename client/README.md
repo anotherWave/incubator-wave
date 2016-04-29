@@ -1,15 +1,4 @@
 # Apache Wave Clients
 
-This is the home of the Apache Wave clients, for more info on the clients see the individual readme's
-
-## Dev Install
-
-please see the individual readme's in the sub folders below.
-
-## Build Tasks
-
-please see the individual readme's in the sub folders below.
-
-## More Info
-
-link to relevant info for finding out more (website, cwiki, other)
+Each client included here is for use with the Conversation document type. They
+implement the original use case that Google Wave was built for.

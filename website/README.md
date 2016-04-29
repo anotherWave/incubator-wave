@@ -13,7 +13,12 @@ be these README's.
 
 Required:
 - Ruby v2.3.0+
-- Middleman [install](https://middlemanapp.com/basics/install/)
+- Middleman [manual install](https://middlemanapp.com/basics/install/)
+
+Instructions:
+
+To install middleman automatically the bazel task //website:install can be run
+which will install the gems that have been defined in the website repo.
 
 ## Build Tasks
 
