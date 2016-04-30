@@ -4,17 +4,59 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
+    <title><%= current_page.data.title || "Apache Wave (incubating)" %></title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag :site %>
+    <script src="https://cdn.jsdelivr.net/jquery/2.2.3/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js" charset="utf-8"></script>
     <%= javascript_include_tag :all %>
   </head>
-
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div id="container" class="">
+      <div id="header" class="row">
+        <span class="title" style="float: left;"><%= image_tag "OpenWaveLogo.svg", width: "120px" %> Apache Wave</span>
+        <span style="float: right; padding-top: 10px;">
+          <ul class="dropdown menu hide-for-small-only" data-dropdown-menu>
+            <li>
+              <a href="#">About</a>
+              <ul class="menu">
+                <li><a href="#">Client</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Editor</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Community</a>
+              <ul class="menu">
+                <li><a href="#">Get Involved</a></li>
+                <li><a href="#">Chat</a></li>
+                <li><a href="#">People</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Docs</a>
+              <ul class="menu">
+                <li><a href="#">Client</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Editor</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Source</a></li>
+          </ul>
+        </span>
+      </div>
+      <%= yield %>
+    </div>
+    <div id="footer" class="row">
+      Copyright &copy; 2012-2014 The Apache Software Foundation, Licensed under
+      the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License,
+      Version 2.0</a>.<br />
+      Apache, Apache Wave, and the Apache feather logo are trademarks of The
+      Apache Software Foundation.
+    </div>
+    <script type="text/javascript">
+    $(document).foundation();
+    </script>
   </body>
 </html>

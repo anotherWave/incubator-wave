@@ -1,2 +1,2 @@
 cd website
-bundle exec middleman
+bundle exec middleman server development
