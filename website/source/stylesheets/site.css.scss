@@ -8,15 +8,19 @@ body {
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.8);
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: 400;
   margin: 0;
 }
 
 #container {
   min-height: 100%;
+}
+
+#header {
+  font-size: 0.8rem;
 }
 
 #footer {
@@ -34,7 +38,7 @@ h1 {
 
 .title {
   color: rgba(0,0,0,0.8);
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

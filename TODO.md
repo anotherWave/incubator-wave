@@ -2,7 +2,8 @@ While the project is being setup a few todo's will be added and removed here
 to track tasks which must be completed before full development can start.
 
 # Apache Related
-- Integrate Apache Whisker after prebuilt jars are released.
+- Whisker doesnt meet the requirements needed, home grown solution will be
+  needed in the future.
 
 # Project Related
 - Create initial Android base
@@ -15,3 +16,11 @@ to track tasks which must be completed before full development can start.
 - Add mobile menu for website
 - Change text to be imported by T function for localisation.
 - Fill in blurbs on website
+
+# Server
+
+# Client
+
+# Editor
+
+# Web Client
